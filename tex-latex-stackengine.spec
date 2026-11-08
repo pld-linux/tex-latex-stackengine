@@ -1,7 +1,7 @@
 Summary:	Highly customised stacking of objects, insets, baseline changes, etc.
 Name:		tex-latex-stackengine
 Version:	4.11
-Release:	0.1
+Release:	1
 License:	LaTeX Project Public License v1.3+
 Group:		Applications/Publishing
 Source0:	https://mirrors.ctan.org/macros/latex/contrib/stackengine.zip
@@ -9,6 +9,7 @@ Source0:	https://mirrors.ctan.org/macros/latex/contrib/stackengine.zip
 URL:		https://ctan.org/pkg/stackengine/
 BuildRequires:	/usr/bin/latex
 BuildRequires:	rpmbuild(macros) >= 1.751
+Provides:	tex(stackengine.sty)
 Requires(post,postun):	/usr/bin/texhash
 # TODO: use generic
 Requires:	texlive-latex
